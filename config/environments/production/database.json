@@ -2,10 +2,14 @@
   "defaultConnection": "default",
   "connections": {
     "default": {
-      "connector": "strapi-mongoose",
+      "connector": "mongoose",
       "settings": {
-        "uri": "${process.env.DATABASE_URI}",
-        "database": "${process.env.DATABASE_NAME}"
+        "database": "server",
+        "host": "librarian-5xizh.mongodb.net",
+        "srv": "true",
+        "port": 27017,
+        "username": "admin",
+        "password": "1G8F4VXW2yh6v5xz"
       },
       "options": {
         "ssl": true
