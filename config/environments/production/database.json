@@ -2,7 +2,7 @@
   "defaultConnection": "default",
   "connections": {
     "default": {
-      "connector": "mongoose",
+      "connector": "strapi-mongoose",
       "settings": {
         "uri": "${process.env.DATABASE_URI}",
         "database": "${process.env.DATABASE_NAME}"
