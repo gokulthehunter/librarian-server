@@ -5,11 +5,7 @@
       "connector": "mongoose",
       "settings": {
         "database": "server",
-        "host": "librarian-5xizh.mongodb.net",
-        "srv": "true",
-        "port": 27017,
-        "username": "admin",
-        "password": "1G8F4VXW2yh6v5xz"
+        
       },
       "options": {
         "authenticationDatabase": "",
